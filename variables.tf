@@ -51,6 +51,9 @@ variable "tags" {
   description = "A mapping of tags to assign to the bucket."
 }
 
+################################################################################
+# Credentials you can use local or declare in variables
+################################################################################
 
 variable "aws_access_key" {
 default = ""
